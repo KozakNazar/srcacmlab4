@@ -1,6 +1,6 @@
 /*************************************************************************************************************
 * N.Kozak // Lviv'2018 // ACM // Algorithm Design Paradigms(by quadratic assignment problem resolve example) *
-*    file: acmlab4.c                                                                                         *
+*    file: acmlab4.cpp                                                                                       *
 **************************************************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
@@ -312,7 +312,7 @@ int main(void){
 	printf("F = %d:\n", computeF(tableR, tableD, tablePositions, ELEMENTS_COUNT));
 
 	printf("\n\nPress any key to continue . . .");
-	getchar();
+	(void)getchar();
 
 	return 0;
 }
