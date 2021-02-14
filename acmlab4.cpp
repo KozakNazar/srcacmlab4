@@ -311,7 +311,7 @@ int main(void){
 	printTablePositions("", tablePositions);
 	printf("F = %d:\n", computeF(tableR, tableD, tablePositions, ELEMENTS_COUNT));
 
-	printf("\n\nPress any key to continue . . .");
+	printf("\n\nPress Enter to continue . . .");
 	(void)getchar();
 
 	return 0;
